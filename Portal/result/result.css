@@ -1,0 +1,264 @@
+* {
+    font-family: 'Century Gothic';
+}
+#marksheet {
+    border: 1px solid #28b78d;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: auto;
+    height: 1000px;
+    width: 60%;
+    user-select: none;
+}
+
+#institution {
+    display: flex;
+    height: 180px;
+}
+
+#logotop {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 20%;
+}
+
+#descInsti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+}
+
+#institution_name_div {
+    width: 100%;
+    margin-bottom: .5rem;
+    font-size: 1.6rem;
+}
+
+#institution_location_div {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+#institution_description_div {
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+#student {
+    border-top: 1px solid #28b78d;
+    display: flex;
+    height: 60px;
+    margin-top: 1rem;
+}
+
+#student span {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#student_roll {
+    width: 15%;
+    text-align: center;
+}
+
+#student_class {
+    border-left: 1px solid #28b78d;
+    width: 15%;
+    text-align: center;
+}
+
+#student_name {
+    border-left: 1px solid #28b78d;
+    width: 55%;
+    text-align: center;
+}
+
+#student_merit {
+    border-left: 1px solid #28b78d;
+    width: 15%;
+    text-align: center;
+}
+
+#marks-head {
+    border-top: 1px solid #28b78d;
+    display: flex;
+    height: 50px;
+}
+
+#marks-head span {
+    font-size: 1.5rem;
+}
+
+#marks {
+    border-top: 1px solid #28b78d;
+    display: flex;
+    height: 400px;
+}
+
+#marks span {
+    font-size: 1.3rem;
+}
+
+#subject_code, #subject_code_marks {
+    line-height: 42px;
+    width: 10%;
+    text-align: center;
+}
+
+#subject_name, #subject_name_marks {
+    border-left: 1px solid #28b78d;
+    line-height: 42px;
+    width: 34%;
+    text-align: center;
+}
+
+#subject_theory, #subject_theory_marks {
+    border-left: 1px solid #28b78d;
+    line-height: 42px;
+    width: 12%;
+    text-align: center;
+}
+
+#subject_practical, #subject_practical_marks {
+    border-left: 1px solid #28b78d;
+    line-height: 42px;
+    width: 12%;
+    text-align: center;
+}
+
+#subject_internal, #subject_internal_marks {
+    border-left: 1px solid #28b78d;
+    line-height: 42px;
+    width: 12%;
+    text-align: center;
+}
+
+#subject_total, #subject_total_marks {
+    border-left: 1px solid #28b78d;
+    line-height: 42px;
+    width: 10%;
+    text-align: center;
+}
+
+#subject_grade, #subject_grade_marks {
+    border-left: 1px solid #28b78d;
+    line-height: 42px;
+    width: 10%;
+    text-align: center;
+}
+
+#total {
+    border-top: 1px solid #28b78d;
+    display: flex;
+    height: 50px;
+    font-size: 1.3rem;
+}
+
+#department_name {
+    line-height: 42px;
+    width: 55%;
+    text-align: center;
+}
+
+#total_head {
+    border-left: 1px solid #28b78d;
+    line-height: 42px;
+    width: 15%;
+    text-align: center;
+}
+
+#total_marks {
+    line-height: 42px;
+    width: 30%;
+    text-align: center;
+}
+
+#percent {
+    border-top: 1px solid #28b78d;
+    display: flex;
+    height: 50px;
+    font-size: 1.3rem;
+}
+
+#success_result {
+    line-height: 42px;
+    width: 50%;
+    text-align: center;
+}
+
+#total_percent {
+    border-left: 1px solid #28b78d;
+    line-height: 42px;
+    width: 25%;
+    text-align: center;
+}
+
+#total_grade {
+    border-left: 1px solid #28b78d;
+    line-height: 42px;
+    width: 25%;
+    text-align: center;
+}
+
+#end {
+    border-top: 1px solid #28b78d;
+    display: flex;
+    height: 160px;
+}
+
+#end span{
+    font-size: 1.5rem;
+}
+
+#teacher_sign_image {
+    width: 35%;
+    text-align: center;
+}
+
+#teacher_sign_image_png {
+    height: 80%;
+    margin-left: -7rem;
+}
+
+
+#logo_again {
+    width: 30%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#logo_again_div {
+    margin: auto;
+    margin-top: 1rem;
+    width: 60%;
+    height: 100%;
+    opacity: .5;
+    background-repeat: no-repeat;
+    background-size: 92% 85%;
+}
+
+#hod_sign_image {
+    width: 35%;
+    text-align: center;
+}
+
+#hod_sign_image_png {
+    height: 80%;
+    margin-left: -7rem;
+}
+
+/* scroll bar customizing */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent,#28b78d);
+    /* background: #28b78d; */
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent,#30a683);
+}

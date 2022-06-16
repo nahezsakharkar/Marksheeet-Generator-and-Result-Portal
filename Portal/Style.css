@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
+    max-height: 100%;
+    user-select: none;
+    font-family: "Century Gothic";
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#image-head {
+    margin: auto;
+    width: 20%;
+    height: 333px;
+    background-image: url(portal.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 25%;
+}
+
+#form input {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    width: 83%;
+    height: 1.2rem;
+    border-radius: 30px;
+    border: 1px solid #28b78d;
+    padding: 1rem 2rem;
+    outline: none;
+}
+
+#form input:focus {
+    border: 3px solid #30a683;
+}
+
+#form button {
+    margin-left: 6.5rem;
+    color: white;
+    font-size: 1.3rem;
+    width: 189px;
+    height: 43px;
+    background-color: #28b78d;
+    border-radius: 30px;
+    border: 1px solid #28b78d;
+    border-color: #28b78d;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background-color: #30a683;
+    border: 3px solid #30a683;
+    border-color: #30a683;
+}
+
+#errorspan {
+    margin-left: 6.3rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: red;
+}

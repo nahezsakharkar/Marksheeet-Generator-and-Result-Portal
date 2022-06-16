@@ -1,0 +1,424 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: 	#e9ebf2;
+    max-width: 100%;
+    max-height: 100%;
+    user-select: none;
+}
+#blur.active {
+	filter: blur(5px);
+	pointer-events: none;
+	user-select: none;
+}
+.logoAnimate{
+    margin-top: 100px;
+    margin-left: 150px;
+
+}
+.container{   
+    margin-top: -450px;
+    margin-right: 260px;
+    float: right;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+.logInForm{
+    width: 400px;
+    height: 360px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px #243743;
+}
+
+.logInForm input{
+    font-family: 'Century Gothic','Line Awesome Free';
+    font-weight: 900;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: -10px;
+    border: 1px solid #a0a9ae;
+    border-radius: 8px;
+    margin-right: -10px;
+    padding: 17px;
+    width: 332px;
+    outline: none;
+}
+.logInForm input:focus{
+    border: 2px solid #243743;
+    border-radius: 8px;
+}
+
+.logInPage {
+    background-color: white;
+}
+
+#errorLogin {
+    background-color: white;
+    display: none;
+}
+#errorLogin span {
+    text-align: center;
+    font-family: 'Century Gothic';
+    color: red; 
+    background-color: white;
+}
+.loginButton{
+    margin-top: 15px;
+    background-color: #243743 ;
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.loginButton:hover{
+    background-color: #1f2d36;
+}
+.loginButton:focus{
+    background-color: #181f24;
+}
+p{
+    background-color: white;
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    color: #243743;
+    margin-top: 20px;
+}
+p a{
+    color: #243743;
+    background-color: white;
+    text-decoration: none;
+}
+.btn {
+    padding: 7px;
+    margin-top: 15px;
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.signUpButton{
+    color: white;
+    background-color: #28b78d ;
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.signUpButton:hover{
+    background-color: #30a683;
+}
+.signUpButton:focus{
+    background-color: #319175;
+}
+.forgot-password {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px #243743;
+}
+.forgot-password label{
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Century Gothic';
+}
+.forgot-password input{
+    font-family: 'Century Gothic';
+    background-color: white;
+    margin-top: 10px;
+    margin-left: -10px;
+    border: 1px solid #a0a9ae;
+    border-radius: 8px;
+    margin-right: -10px;
+    padding: 17px;
+    width: 332px;
+    outline: none;
+}
+.forgot-password input:focus{
+    border: 2px solid #243743;
+    border-radius: 8px;
+}
+
+.security-password {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px #243743;
+}
+
+.security-password input {
+    font-family: 'Century Gothic';
+    background-color: white;
+    margin-top: 10px;
+    margin-left: -10px;
+    border: 1px solid #a0a9ae;
+    border-radius: 8px;
+    margin-right: -10px;
+    padding: 17px;
+    width: 332px;
+    outline: none;
+}
+
+.security-password input:focus{
+    border: 2px solid #243743;
+    border-radius: 8px;
+}
+
+.reset-password {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px #243743;
+}
+
+.reset-password input{
+    font-family: 'Century Gothic';
+    background-color: white;
+    margin-top: 10px;
+    margin-left: -10px;
+    border: 1px solid #a0a9ae;
+    border-radius: 8px;
+    margin-right: -10px;
+    padding: 17px;
+    width: 332px;
+    outline: none;
+}
+.reset-password input:focus{
+    border: 2px solid #243743;
+    border-radius: 8px;
+}
+
+#security-question-span {
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-family: 'Century Gothic';
+}
+
+#security-error-question {
+    line-height: 3rem;
+    background-color: transparent;
+    font-family: 'Century Gothic';
+    color: red;
+}
+
+#emailLogin-forgot {
+    margin-bottom: 1rem;
+}
+
+#closeModal-fp {
+    padding-top: 1rem;
+}
+
+#errorLogin-forgot-password {
+    text-align: center;
+    font-family: 'Century Gothic';
+    color: red; 
+    background-color: transparent;
+}
+
+#error-forgot-password {
+    text-align: center;
+    font-family: 'Century Gothic';
+    color: red; 
+    background-color: white;
+}
+
+.Reset-My-Password{
+    background-color: #243743 ;
+    padding: 16px;
+    width: 60%;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.Reset-My-Password:hover{
+    background-color: #1f2d36;
+}
+.Reset-My-Password:focus{
+    background-color: #181f24;
+}
+
+#success-updatePass {
+	user-select: auto;
+    pointer-events: auto;
+	position: fixed;
+	top: -10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 450px;
+	padding: 30px;
+	box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+	background: #ffffff;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#success-updatePass.active {
+	top: 10%;
+	visibility: visible;
+	opacity: 1;
+}
+
+#success-UP{
+    background: transparent;
+	display: flex;
+	justify-content: space-between;
+}
+
+#success-UP span{
+	font-size: 1.1rem;
+    background: transparent;
+	font-family: 'Segoe UI';
+}
+
+#success-UP button{
+	height: 45px;
+	width: 80px;
+    background: #28b78d;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    padding: 11px;
+    border: none;
+}
+
+#success-UP button:hover{
+	cursor: pointer;
+	background-color: #30a683;
+}
+
+#success-UP div:first-child{
+    background: transparent;
+	width: 60%;
+}
+
+#success-UP div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+}
+
+#signUp {
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 450px;
+	padding: 50px;
+    border-radius: 8px;
+	box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+	background: #ffffff;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+#signUp.active {
+	top: 50%;
+	visibility: visible;
+	opacity: 1;
+	transition: 0.5s;
+}
+.Close {
+    background-color: transparent;
+    color: #a0a9ae;
+    float: right;
+    font-size: 35px;
+}
+  
+.Close:hover, .Close:focus {
+    color: #243743;
+    text-decoration: none;
+    cursor: pointer;
+}
+#signUpBtn {
+    text-align: center;
+    background-color: white;
+}
+.signUpForm{
+    user-select: none;
+    background-color: white;
+    padding: 20px;
+}
+.signUpForm input{
+    width: 100%;
+    font-family: 'Century Gothic';
+    background-color: white;
+    border: 1px solid #a0a9ae;
+    border-radius: 8px;
+    padding: 17px;
+    outline: none;
+}
+.signUpForm input:focus{
+    border: 2px solid #243743;
+    border-radius: 8px;
+}
+.errorMsg {
+    width: 100%;
+    background-color: white;
+    font-family: 'Century Gothic';
+    border-collapse: collapse;
+    color: red;
+}
+.errorMsg td {
+    background-color: white;
+}
+
+#namesurerror, #emailerror, #passerror, #passmatcherror{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.send {
+    color: white;
+    background-color: #28b78d ;
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    padding: 16px;
+    width: 40%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: #30a683;
+}
+.send:focus{
+    background-color: #319175;
+}
